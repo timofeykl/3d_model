@@ -11,7 +11,7 @@ import matplotlib.cbook as cbook
 dsn = """like
 3d_math_pot_lib
 """
-connection = cx.connect("iz01340", "iz01340", dsn)
+connection = cx.connect("USER", "Password", dsn)
 
 #can't put out this stuff
 
